@@ -1,5 +1,24 @@
+# Hi, I'm Sean Duggan 👋
+### Unity Developer | Game Programmer | Technical Designer
+
+I am a Game Developer focused on building modular systems, immersive VR/AR experiences, and polished gameplay mechanics. My work spans from high-fidelity HDRP environments to deep-dives into the Unity Input System and physics-based logic.
+
+---
+
+## 🛠️ Technical Skills
+| Category | Technologies |
+| --- | --- |
+| **Engines** | Unity (HDRP, URP, 2D/3D), AR Foundation |
+| **Languages** | C#, HLSL (Shaders) |
+| **Systems** | New Input System, Cinemachine, Timeline, XR Interaction Toolkit |
+| **Tools** | Git, ProBuilder, Filebase, Photoshop |
+
+---
+
 ### 🚀 Galaxy Shooter 2D
 <details>
+<summary>View Project Details</summary>
+
 This project showcases the development of a feature-rich 2D arcade shooter built in Unity, focusing on modular systems and polished gameplay mechanics. I implemented a robust **Spawn Manager** utilizing weighted probability lists to balance game difficulty, alongside a multi-stage **Wave System**. The project highlights advanced AI behaviors, including enemies with "smart" logic—such as detecting player position to fire backward, dodging incoming fire, and aggressively ramming the player. I also focused heavily on "Game Feel" by integrating post-processing effects, camera shake, and progressive damage VFX to create an immersive player experience.
 
 [Medium Articles](https://medium.com/@sean.duggan/list/space-shooter-78bc4d7acf16)
@@ -14,6 +33,8 @@ This project showcases the development of a feature-rich 2D arcade shooter built
 
 ### 🏢 Office Scene: Level Design & Lighting
 <details>
+<summary>View Project Details</summary>
+
 This project focuses on environmental storytelling and high-fidelity interior rendering within Unity. I transformed a conceptual space into a detailed professional office using **Filebase assets**, focusing on realistic set dressing and spatial flow. The project highlights my ability to work within the **High Definition Render Pipeline (HDRP)** to achieve AAA-quality visuals through sophisticated lighting and material setups. I also utilized **ProBuilder** for greyboxing and creating custom architectural meshes, ensuring the environment was both functional for gameplay and visually compelling.
 
 [Medium Articles](https://medium.com/@sean.duggan/list/office-scene-4594b3187d56)
@@ -28,6 +49,8 @@ This project focuses on environmental storytelling and high-fidelity interior re
 
 ### 🥽 VR Escape Room: Interactive Immersion
 <details>
+<summary>View Project Details</summary>
+
 This project explores the design and implementation of a fully interactive Virtual Reality escape room built with Unity and the **XR Interaction Toolkit**. The focus was on creating tactile, intuitive interactions that bridge the gap between player intent and virtual physics. I developed a series of interconnected puzzles using **XR Socket Interactors** for key-and-lock mechanics, alongside custom **XRSnapInteractors** for complex object manipulation. To ensure player flow and prevent frustration, I engineered a multi-tiered **Hint System**—including in-universe "Gaze-activated" journals and a dynamic UI hint list—that gradually guides the player based on their progress and perspective.
 
 [Medium Articles](https://medium.com/@sean.duggan/list/escape-room-37d6aac687ba)
@@ -42,6 +65,8 @@ This project explores the design and implementation of a fully interactive Virtu
 
 ### 📱 Mobile AR: Dynamic Object Placement & Visualization
 <details>
+<summary>View Project Details</summary>
+
 This project focuses on cross-platform mobile Augmented Reality (AR) development using **AR Foundation** and **ARCore/ARKit**. I developed a robust application that allows users to detect real-world planes and interactively place, move, scale, and rotate high-fidelity 3D assets (such as vehicles and turrets) within their physical environment. A key highlight of this project is the implementation of two distinct visualization scales: a **Desktop Mode** for tabletop examination of miniaturized models and a **Driveway Mode** for 1:1 life-sized visualization, allowing users to physically walk around and inspect salient features via informative proximity-based labels.
 
 [Medium Articles](https://medium.com/@sean.duggan/list/unity-ar-686b0dceb815)
@@ -56,6 +81,8 @@ This project focuses on cross-platform mobile Augmented Reality (AR) development
 
 ### 🛸 Spaceship Cinematics: Timeline & Cinemachine
 <details>
+<summary>View Project Details</summary>
+
 This project demonstrates the creation of a high-fidelity cinematic experience centered around a space transport vessel in the **High Definition Render Pipeline (HDRP)**. I utilized **Unity Timeline** to orchestrate complex sequences involving multiple tracks—including animation, audio, and VFX control—to bring the ship to life with custom thruster particles and environmental dust effects. A key technical focus was the integration of **Cinemachine** to handle dynamic camera transitions between external chase views and a detailed cockpit interior, alongside a "sleep mode" logic that automatically triggers a cinematic flyby sequence if no player input is detected.
 
 [Medium Articles](https://medium.com/@sean.duggan/list/spaceship-project-eeea4e6f7ed1)
@@ -70,6 +97,8 @@ This project demonstrates the creation of a high-fidelity cinematic experience c
 
 ### 🎯 Shooting Gallery: Logic & Interaction Lab
 <details>
+<summary>View Project Details</summary>
+
 This project is a comprehensive study of modular game systems and interactive mechanics within a 3D shooting gallery environment. I utilized this build to experiment with diverse game logic patterns, specifically focusing on how to decouple object behavior from player input. By implementing **C# Interfaces**, I created a highly scalable interaction system where targets, environmental hazards, and UI elements respond to damage or triggers through unique, scriptable behaviors. The project also highlights advanced physics implementation, including projectile ballistics and destructible object logic.
 
 [Medium Articles](https://medium.com/@sean.duggan/list/shooting-gallery-d746a1d9ec93)
@@ -82,8 +111,26 @@ This project is a comprehensive study of modular game systems and interactive me
 
 </details>
 
+### ⚽ Physics Lab: Ball Game
+<details>
+<summary>View Project Details</summary>
+
+This project is a deep dive into the Unity Physics engine, focusing on creating a responsive, momentum-based gameplay experience. I explored the relationship between **Rigidbodies**, **Colliders**, and **Physic Materials** to fine-tune object behavior, ensuring smooth movement across various surfaces. The project showcases my ability to manipulate physical forces such as torque, drag, and velocity to solve environmental puzzles. Additionally, I implemented custom physics-based obstacles, including pendulums and conveyor belts, to test the limits of Unity’s constraint systems and collision detection.
+
+[Medium Articles](https://medium.com/@sean.duggan/list/ball-game-d0a1bf5a3384)
+
+* **Advanced Rigidbody Control:** Mastered the use of `AddForce`, `AddTorque`, and velocity manipulation within the `FixedUpdate` cycle to create a precision-controlled player character.
+* **Physic Materials & Friction:** Developed a variety of surface types (ice, high-friction, bouncy) using custom Physic Materials to dynamically alter the player's momentum and handling.
+* **Environmental Mechanics:** Built interactive physics objects such as gravity lifts, rotating bridges, and weight-sensitive pressure plates using Joint components and Trigger logic.
+* **Collision Matrix Optimization:** Leveraged Unity’s Layer Collision Matrix to efficiently manage interactions between complex geometry and moving actors, reducing overhead and preventing clipping.
+* **Dynamic Camera Tracking:** Integrated a custom camera follow script that accounts for high-velocity physical movement, preventing jitter and maintaining player orientation during rapid transitions.
+
+</details>
+
 ### 🎮 Game Logic & Interaction 2 (GL&I 2)
 <details>
+<summary>View Project Details</summary>
+
 This project serves as an advanced exploration of player interaction and world mechanics within a 3D environment. I focused on building modular, reusable systems for environmental puzzles and inventory management. A major technical highlight was the implementation of the **New Input System**, where I utilized **Action Maps** to seamlessly swap between character movement and UI-based interactions, such as multi-level elevator controls. I also developed an interface-driven interaction system to handle diverse world objects—from weight-sensitive pressure plates and keycard-locked doors to lootable treasure chests that utilize UnityEvents for decoupled logic.
 
 [Medium Articles](https://medium.com/@sean.duggan/list/gli-2-eb1f3ae03575)
@@ -98,6 +145,8 @@ This project serves as an advanced exploration of player interaction and world m
 
 ### 🎓 Capoeira Quiz Game
 <details>
+<summary>View Project Details</summary>
+
 This project demonstrates the application of game design principles to educational content, specifically focused on the history and movements of Capoeira. I developed a structured quiz system that emphasizes user experience through clear UI feedback and logical progression. The project involved managing large datasets of questions and answers, implementing a scoring system that tracks player progress, and designing a responsive interface that adapts to different screen sizes. This project highlights my ability to combine niche subject matter with technical implementation to create an engaging, informative experience.
 
 [Medium Articles](https://medium.com/@sean.duggan/list/capoeira-quiz-game-3bccb6336171)
@@ -112,6 +161,7 @@ This project demonstrates the application of game design principles to education
 
 ### 🗡️ Dungeon Escape: 2.5D Platformer
 <details>
+<summary>View Project Details</summary>
 Dungeon Escape is a 2.5D side-scrolling platformer that focuses on classic action-adventure mechanics and AI behavior. I implemented a robust player controller featuring double-jumping and combat mechanics, alongside a variety of enemy types with unique patrol and attack patterns. The project showcases my use of **Tilemaps** for efficient level design and the **Singleton Pattern** for managing game-wide systems like currency and diamond collection. Additionally, I explored the integration of specialized animations and hit-detection logic to create satisfying combat encounters between the player and dungeon-dwelling enemies.
 
 [Medium Articles](https://medium.com/@sean.duggan/list/dungeon-escape-9b27f33be92a)
@@ -126,6 +176,7 @@ Dungeon Escape is a 2.5D side-scrolling platformer that focuses on classic actio
 
 ### 🕹️ Unity Input System Migration: Generic Action Puzzler
 <details>
+<summary>View Project Details</summary>
 This project focused on the technical refactoring of a legacy "Action Puzzler" by migrating it from the old Unity Input Manager to the modern **Unity Input System**. The goal was to replace hard-coded polling logic with a more flexible, event-driven architecture. I utilized **Action Maps** to cleanly separate gameplay movement from UI interactions and implemented support for multiple input devices (Keyboard, Gamepad). This migration not only improved code maintainability but also allowed for more complex input handling, such as distinguishing between simple taps and sustained holds for puzzle-solving mechanics.
 
 [Medium Articles](https://medium.com/@sean.duggan/list/generic-action-puzzler-fbfd773b2213)
@@ -135,4 +186,3 @@ This project focused on the technical refactoring of a legacy "Action Puzzler" b
 * **Contextual Action Maps:** Engineered a system to dynamically switch between "Player" and "UI" Action Maps, ensuring controls are automatically remapped when menus or puzzles are active.
 * **Rebinding Ready:** Built the foundation for user-end key rebinding by utilizing the Input System's asynchronous binding overrides and JSON persistence logic.
 * **Performance Optimization:** Reduced CPU overhead by moving away from frame-by-frame input polling to a more efficient callback-based notification system (`performed`, `started`, `canceled`).
-</details>
