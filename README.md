@@ -15,6 +15,16 @@ I am a Game Developer focused on building modular systems, immersive VR/AR exper
 
 ---
 
+## ✍️ Recent Technical Writing
+I document my development process and technical hurdles on Medium.
+👉 [View my full Medium Profile](https://medium.com/@sean.duggan)
+
+## 📫 Connect with me
+- **LinkedIn:** [Sean Duggan](https://www.linkedin.com/in/sean-duggan-b7442713a/)
+- **GitHub:** [FuzzyBoots](https://github.com/FuzzyBoots)
+
+## Projects
+
 ### 🚀 Galaxy Shooter 2D
 <details>
 <summary>View Project Details</summary>
