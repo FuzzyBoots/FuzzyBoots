@@ -21,7 +21,7 @@ I document my development process and technical hurdles on Medium.
 
 ## 📫 Connect with me
 - **LinkedIn:** [Sean Duggan](https://www.linkedin.com/in/sean-duggan-b7442713a/)
-- **GitHub:** [FuzzyBoots](https://github.com/FuzzyBoots)
+- **Portfolio Website:** [GitHub](https://seanduggan1.wixsite.com/portfolio)
 
 ## Projects
 
